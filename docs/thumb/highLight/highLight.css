@@ -1,0 +1,42 @@
+.hightLight-code{
+    background-color: #000000;
+    color: white;
+    display: block;
+    font-family: Consolas, Lucida Console, monospace, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 740px;
+}
+
+.hightLight-string{
+    color: #1DC116;
+}
+
+.hightLight-number{
+    color: #428BDD
+}
+
+.hightLight-variable{
+    color: #FFAA3E;
+}
+
+.hightLight-comment{
+    color: #B729D9;
+}
+
+.hightLight-key {
+    color: #B43D3D;
+}
+
+.hightLight-keyword, .hightLight-html {
+    color: #FFF;
+}
+
+.hightLight-code > span{
+    color: #FFF!important;
+}
+
+.hightLight-default{
+    color: #FFF;
+}

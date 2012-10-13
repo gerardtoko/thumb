@@ -1,0 +1,13 @@
+
+
+
+/* --- STYLES DE MAIN --- */
+
+.main-wrapper {
+    margin: 100px auto auto;
+    width: 780px;
+}
+
+* {
+    border-radius: 0px!important
+}
