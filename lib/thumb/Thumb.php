@@ -89,7 +89,9 @@ class Thumb {
      */
     protected function cleanCache($namespace) {
 	if (file_exists($namespace)) {
-	    rmdir($namespace);
+	    $old_name = realpath($namespace);
+	    $new_name = sprintf("%s.%s", $old_name, time());
+	    rename($old_name, $new_name);
 	}
     }
 
